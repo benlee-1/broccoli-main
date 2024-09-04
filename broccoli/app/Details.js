@@ -1,42 +1,40 @@
 // Enter all your detials in this file
 // Logo images
-import logogradient from "./assets/logo.svg";
-import logo from "./assets/logo2.svg";
+import ben_lee_logo from "./assets/ben_lee_logoBW.svg";
 // Profile Image
 import profile from "./assets/profile.jpg";
 // Tech stack images
-import html from "../assets/techstack/html.png";
-import css from "../assets/techstack/css.png";
-import sass from "../assets/techstack/sass.png";
-import js from "../assets/techstack/js.png";
-import react from "../assets/techstack/react.png";
-import redux from "../assets/techstack/redux.png";
-import tailwind from "../assets/techstack/tailwind.png";
-import bootstrap from "../assets/techstack/bootstrap.png";
-import vscode from "../assets/techstack/vscode.png";
-import github from "../assets/techstack/github.png";
-import git from "../assets/techstack/git.png";
-import npm from "../assets/techstack/npm.png";
-import postman from "../assets/techstack/postman.png";
-import figma from "../assets/techstack/figma.png";
+import html from "./assets/techstack/html.png";
+import css from "./assets/techstack/css.png";
+import sass from "./assets/techstack/sass.png";
+import js from "./assets/techstack/js.png";
+import react from "./assets/techstack/react.png";
+import redux from "./assets/techstack/redux.png";
+import tailwind from "./assets/techstack/tailwind.png";
+import bootstrap from "./assets/techstack/bootstrap.png";
+import vscode from "./assets/techstack/vscode.png";
+import github from "./assets/techstack/github.png";
+import git from "./assets/techstack/git.png";
+import npm from "./assets/techstack/npm.png";
+import postman from "./assets/techstack/postman.png";
+import figma from "./assets/techstack/figma.png";
 // Porject Images
-import projectImage1 from "../assets/projects/project1.jpg";
-import projectImage2 from "../assets/projects/project2.jpg";
-import projectImage3 from "../assets/projects/project3.jpg";
-import projectImage4 from "../assets/projects/project4.jpg";
-import projectImage5 from "../assets/projects/project5.jpg";
-import projectImage6 from "../assets/projects/project6.jpg";
+import projectImage1 from "./assets/projects/project1.jpg";
+import projectImage2 from "./assets/projects/project2.jpg";
+import projectImage3 from "./assets/projects/project3.jpg";
+import projectImage4 from "./assets/projects/project4.jpg";
+import projectImage5 from "./assets/projects/project5.jpg";
+import projectImage6 from "./assets/projects/project6.jpg";
 
 // Logos
 export const logos = {
-  logogradient: logogradient,
-  logo: logo,
+  logo: ben_lee_logo,
 };
 
 // Enter your Personal Details here
 export const personalDetails = {
   name: "Ben Lee",
-  tagline: "I build things for the internet",
+  tagline: "and I build things for the internet :)",
   img: profile,
   about: `Software Engineer with 2+ years of experience in building high-performance web applications. Proficient in JavaScript, React, and modern architectures, with a growing interest in Web3 and fintech innovations. Dedicated to creating seamless user experiences and robust backend services that simplify complex technologies.`,
 };
@@ -65,7 +63,6 @@ export const workDetails = [
     Type: "Internship",
     Duration: "Jun 2021 - Aug 2021",
   },
-
 ];
 
 // Enter your Education Details here

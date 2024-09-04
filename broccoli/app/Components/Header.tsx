@@ -1,6 +1,8 @@
 "use client";
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
+import ben_lee_logo from "./assets/ben_lee_logoBW.svg";
+
 import { logos, socialMediaUrl } from "../Details";
 
 function Header() {
@@ -9,12 +11,13 @@ function Header() {
   const toggleClass = () => {
     setIsOpen(!isOpen);
   };
+  const logoToDisplay = logos.logo
 
   return (
     <header className="container mx-auto md:flex justify-between py-2 max-width">
       <div className="flex justify-between items-center py-2 md:py-10">
         <NavLink to="/">
-          <img className="w-14" src={logos.logogradient} alt="benleelogo" />
+          <img className="w-14" src={ben_lee_logo} alt="benleelogo" />
         </NavLink>
         <div onClick={toggleClass} className="cursor-pointer">
           <svg
